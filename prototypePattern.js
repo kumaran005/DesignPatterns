@@ -17,6 +17,7 @@ const bug1 = {
 // With setPrototypeOf  set the prototype of  object
 Object.setPrototypeOf(bug1, enemy);
 
+console.log(bug1);
 // With getPrototypeOf  read the prototype and confirm the previous has worked
 console.log(Object.getPrototypeOf(bug1)); // { attack: [Function: attack], flyAway: [Function: flyAway] }
 
